@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Button from "./components/Button";
-import "./assets/style.css";
+import Button from "./components/Button.js";
+
 export default class App extends Component {
   constructor() {
     super();
