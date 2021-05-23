@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Button from "./components/Button.js";
+// import Button from "./Button";
 
 export default class App extends Component {
   constructor() {
@@ -31,8 +31,8 @@ export default class App extends Component {
             <h1>{count}</h1>
           </div>
           <div class="buttons">
-            <Button title={"-"} action={this.decrementCount} />
-            <Button title={"+"} action={this.incrementCount} />
+            <button title={"-"} onClick={this.decrementCount}>Subtract</button>
+            <button title={"+"} onClick={this.incrementCount}>Add</button>
           </div>
         </div>
       </div>
